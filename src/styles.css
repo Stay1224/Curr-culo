@@ -1,0 +1,127 @@
+/* styles.css */
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #928787;
+  }
+  
+  /* Container principal */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 98vh;
+    border-bottom: 1px solid #59839260;
+    animation: fadeIn 1.5s ease-in-out; /* Adicionando animação de fade-in */
+  }
+  
+  /* Ajustes na animação existente */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Estilos para a seção de texto inicial */
+  .title {
+    padding: 2rem;
+    font-size: 2rem;
+    color: #f5e6e6;
+    text-align: center;
+  }
+  
+  .primeira_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 0 20px;
+    color: #666;
+    text-align: center;
+    border-right: 1px solid #6fbcd8c4;
+  }
+  
+  .text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: flex;
+    width: 30vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button button {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: rgb(12, 160, 143);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button button:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  /* Estilos para a seção com a foto e o texto */
+  .sectiontwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .sectiontwo .image {
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 70%;
+    height: auto;
+   
+    
+    margin-top: 3rem;
+    border-radius: 50%;
+  }
+  
+  .sectionthree {
+    text-align: center;
+  }
+  
+  .sectionthree h2 {
+    margin-bottom: 20px;
+  }
+  .projects{
+    height: 30%;
+    justify-content: space-between;
+    color: #181717;
+  }.projects p{
+    border-bottom: 1px solid rgba(0, 0, 255, 0.26);
+  }.habilidades img{
+    padding-top: 3rem;
+    width: 30%;
+  }
